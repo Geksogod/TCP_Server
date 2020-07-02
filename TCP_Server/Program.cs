@@ -1,4 +1,5 @@
 ﻿using System;
+using TCP_ListenerN.Server;
 
 namespace TCP_Server
 {
@@ -6,7 +7,8 @@ namespace TCP_Server
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TCP_Listener listener = new TCP_Listener("192.168.5.246",1444);
+            Console.ReadKey();
         }
     }
 }

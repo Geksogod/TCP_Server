@@ -1,0 +1,13 @@
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\bin\Debug\netcoreapp3.1\TCP_Server.exe
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\bin\Debug\netcoreapp3.1\TCP_Server.deps.json
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\bin\Debug\netcoreapp3.1\TCP_Server.runtimeconfig.json
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\bin\Debug\netcoreapp3.1\TCP_Server.runtimeconfig.dev.json
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\bin\Debug\netcoreapp3.1\TCP_Server.dll
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\bin\Debug\netcoreapp3.1\TCP_Server.pdb
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\Debug\netcoreapp3.1\TCP_Server.csprojAssemblyReference.cache
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\Debug\netcoreapp3.1\TCP_Server.AssemblyInfoInputs.cache
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\Debug\netcoreapp3.1\TCP_Server.AssemblyInfo.cs
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\Debug\netcoreapp3.1\TCP_Server.csproj.CoreCompileInputs.cache
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\Debug\netcoreapp3.1\TCP_Server.dll
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\Debug\netcoreapp3.1\TCP_Server.pdb
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\Debug\netcoreapp3.1\TCP_Server.genruntimeconfig.cache
