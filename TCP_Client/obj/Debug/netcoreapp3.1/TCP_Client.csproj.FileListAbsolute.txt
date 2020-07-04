@@ -1,0 +1,13 @@
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.exe
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.deps.json
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.runtimeconfig.json
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.runtimeconfig.dev.json
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.dll
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.pdb
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.csprojAssemblyReference.cache
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.AssemblyInfoInputs.cache
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.AssemblyInfo.cs
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.csproj.CoreCompileInputs.cache
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.dll
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.pdb
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.genruntimeconfig.cache

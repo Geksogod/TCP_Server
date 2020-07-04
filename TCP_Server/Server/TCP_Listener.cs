@@ -10,6 +10,8 @@ namespace TCP_ListenerN.Server
     {
         private string ip;
         private int port;
+        public bool serverIsStared;
+
         public TCP_Listener(string ip,int port)
         {
             this.ip = ip;
@@ -32,19 +34,38 @@ namespace TCP_ListenerN.Server
             {
                 server.Start();
                 Console.WriteLine("Server started...");
+                serverIsStared = true;
             }
             catch (Exception q)
             {
                 Console.WriteLine("Error with start server : " + q.Message);
+                serverIsStared = false;
                 throw;
             }
-            CloseServer(server);
+            if (serverIsStared)
+                Listen(server);
         }
+
 
         private void CloseServer(TcpListener server)
         {
             server.Stop();
+            serverIsStared = false;
             Console.WriteLine("Server " + server.LocalEndpoint.ToString()+" closed");
+        }
+
+        private async void Listen(TcpListener _listener)
+        {
+            while (true)
+            {
+                var client = await _listener.AcceptTcpClientAsync().ConfigureAwait(false);
+                Console.WriteLine(client.Client.ToString() + " Connected");
+            }
+        }
+
+        public void SendMessage(string massage)
+        {
+
         }
     }
 }
