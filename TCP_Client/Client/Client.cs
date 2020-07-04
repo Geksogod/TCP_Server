@@ -3,10 +3,11 @@ using System.Net.Sockets;
 
 namespace TCP_Client.Client
 {
-    class Client
+    class Client 
     {
         private string serverIP;
         private int serverPort;
+        private TcpClient tcpClient;
 
         public Client(string serverIP,int serverPort)
         {
@@ -15,12 +16,13 @@ namespace TCP_Client.Client
             ConnectToServer();
         }
 
+
         private void ConnectToServer()
         {
             Console.WriteLine("Try to connect to server...");
             try
             {
-                TcpClient tcpClient = new TcpClient();
+                tcpClient = new TcpClient();
                 tcpClient.Connect(serverIP, serverPort);
                 Console.WriteLine("Client connected");
             }
@@ -30,6 +32,7 @@ namespace TCP_Client.Client
                 throw;
             }
         }
+
 
         private void ReadFromServer()
         {

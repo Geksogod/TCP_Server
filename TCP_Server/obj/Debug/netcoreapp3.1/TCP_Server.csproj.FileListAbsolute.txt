@@ -10,4 +10,4 @@ C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\
 C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\Debug\netcoreapp3.1\TCP_Server.dll
 C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\Debug\netcoreapp3.1\TCP_Server.pdb
 C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\Debug\netcoreapp3.1\TCP_Server.genruntimeconfig.cache
-c:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\Debug\netcoreapp3.1\TCP_Server.csprojAssemblyReference.cache
+C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Server\obj\Debug\netcoreapp3.1\TCP_Server.csprojAssemblyReference.cache
