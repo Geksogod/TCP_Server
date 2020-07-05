@@ -14,7 +14,8 @@ namespace TCP_ListenerN.Server
         private string ip;
         private int port;
         public bool serverIsStarted;
-        private List<TcpClient> tcpClients = new List<TcpClient>();
+        private int index;
+        private Dictionary<int, TcpClient> tcpClients = new Dictionary<int, TcpClient>();
 
         public TCP_Listener(string ip, int port)
         {
@@ -67,14 +68,14 @@ namespace TCP_ListenerN.Server
                 await Task.Run(() =>
                 {
                     var client = _listener.AcceptTcpClient();
-                    tcpClients.Add(client);
-                    Console.WriteLine(client.Client.ToString() + " Connected Index - " + tcpClients?.Count);
-                    for (int i = 0; i < tcpClients.Count; i++)
+                    tcpClients.Add(++index, client);
+                    Console.WriteLine(client.Client.ToString() + " Connected Index - " + index);
+                    foreach (var tcp_Clients in tcpClients)
                     {
-                        if (!tcpClients[i].Connected)
+                        if (!tcp_Clients.Value.Connected)
                         {
-                            Console.WriteLine(tcpClients[i].Client.ToString() + " Disconected");
-                            tcpClients.RemoveAt(i);
+                            Console.WriteLine(tcp_Clients.Value.ToString() + " Disconected");
+                            tcpClients.Remove(tcp_Clients.Key);
                         }
                     }
                 }
@@ -86,25 +87,45 @@ namespace TCP_ListenerN.Server
             while (true)
                 await Task.Run(() =>
                 {
-                    for (int i = 0; i < tcpClients.Count; i++)
+                    foreach (var tcp_Clients in tcpClients)
                     {
-                        if (GetState(tcpClients[i]) == TcpState.Unknown || GetState(tcpClients[i]) == TcpState.Closed)
+                        if (!IsConnected(tcp_Clients.Value))
                         {
-                            Console.WriteLine(tcpClients[i].ToString() + " disconnected");
-                            tcpClients.RemoveAt(i);
+                            Console.WriteLine(tcp_Clients.Value.ToString() + " disconnected index - " + tcp_Clients.Key);
+                            tcpClients.Remove(tcp_Clients.Key);
                         }
                     }
                 }
                 );
         }
 
-        public TcpState GetState(TcpClient tcpClient)
+        public bool IsConnected(TcpClient tcpClient)
         {
-            TcpState foo = TcpState.Unknown;
-            IPGlobalProperties.GetIPGlobalProperties()
-              ?.GetActiveTcpConnections()
-              ?.Where(x => x.LocalEndPoint.Equals(tcpClient.Client.LocalEndPoint)).ToList().ForEach(delegate (TcpConnectionInformation i) { foo = i.State; });
-            return foo;
+            try
+            {
+                NetworkStream stream = tcpClient.GetStream();
+
+                byte[] data = Encoding.UTF8.GetBytes("");
+                stream.Write(data, 0, data.Length);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        private void ShowActiveTcpConnections()
+        {
+            Console.WriteLine("Active TCP Connections");
+            IPGlobalProperties properties = IPGlobalProperties.GetIPGlobalProperties();
+            TcpConnectionInformation[] connections = properties.GetActiveTcpConnections();
+            foreach (TcpConnectionInformation c in connections)
+            {
+                Console.WriteLine("{0} <==> {1}",
+                    c.LocalEndPoint.ToString(),
+                    c.RemoteEndPoint.ToString());
+            }
         }
 
         public void SendMessage(string massage)
