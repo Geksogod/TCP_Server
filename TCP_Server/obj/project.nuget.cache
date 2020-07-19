@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DqRvuGAThTtoOSgDHbJVkUvA4/Io1AVCHIn+U/GZpmhbEvt3tDqpbAvlzSvspHRjI3bkT8wlkehVelft0dmJ7w==",
+  "dgSpecHash": "kweU7hz2FvYRbiemRh+3FXaPN3EgoGFqpkM09rccnDLf4AD6niDpUIqhmrNQzWF2UQsQofEh0TukDaQjkP1OkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gekso\\OneDrive\\Документи\\Project\\C#\\TCP_Server\\TCP_Server\\TCP_Server.csproj",
+  "projectFilePath": "D:\\Projects\\Pet\\C#\\TCP_Server\\TCP_Server\\TCP_Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

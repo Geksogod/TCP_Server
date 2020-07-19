@@ -27,7 +27,6 @@ namespace TCP_ListenerN.Server
         private void StartServer()
         {
             Console.WriteLine("Try to start Server...");
-            //IPAddress.Any;
             IPAddress ipAddress = IPAddress.Parse(ip);
             TcpListener server = new TcpListener(ipAddress, port);
             ServerInitialize(server);

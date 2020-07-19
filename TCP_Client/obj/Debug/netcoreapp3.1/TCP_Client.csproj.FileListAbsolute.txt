@@ -10,3 +10,16 @@ C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\obj\
 C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.dll
 C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.pdb
 C:\Users\gekso\OneDrive\Документи\Project\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.genruntimeconfig.cache
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.exe
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.deps.json
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.runtimeconfig.json
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.runtimeconfig.dev.json
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.dll
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\bin\Debug\netcoreapp3.1\TCP_Client.pdb
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.csprojAssemblyReference.cache
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.AssemblyInfoInputs.cache
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.AssemblyInfo.cs
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.csproj.CoreCompileInputs.cache
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.dll
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.pdb
+D:\Projects\Pet\C#\TCP_Server\TCP_Client\obj\Debug\netcoreapp3.1\TCP_Client.genruntimeconfig.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gekso\\OneDrive\\Документи\\Project\\C#\\TCP_Server\\TCP_Server\\TCP_Server.csproj": {}
+    "D:\\Projects\\Pet\\C#\\TCP_Server\\TCP_Server\\TCP_Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gekso\\OneDrive\\Документи\\Project\\C#\\TCP_Server\\TCP_Server\\TCP_Server.csproj": {
+    "D:\\Projects\\Pet\\C#\\TCP_Server\\TCP_Server\\TCP_Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gekso\\OneDrive\\Документи\\Project\\C#\\TCP_Server\\TCP_Server\\TCP_Server.csproj",
+        "projectUniqueName": "D:\\Projects\\Pet\\C#\\TCP_Server\\TCP_Server\\TCP_Server.csproj",
         "projectName": "TCP_Server",
-        "projectPath": "C:\\Users\\gekso\\OneDrive\\Документи\\Project\\C#\\TCP_Server\\TCP_Server\\TCP_Server.csproj",
+        "projectPath": "D:\\Projects\\Pet\\C#\\TCP_Server\\TCP_Server\\TCP_Server.csproj",
         "packagesPath": "C:\\Users\\gekso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gekso\\OneDrive\\Документи\\Project\\C#\\TCP_Server\\TCP_Server\\obj\\",
+        "outputPath": "D:\\Projects\\Pet\\C#\\TCP_Server\\TCP_Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gekso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

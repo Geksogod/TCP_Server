@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "TCP_Server/1.0.0": {
+        "dependencies": {
+          "GeksoFileLib": "1.0.0.0"
+        },
         "runtime": {
           "TCP_Server.dll": {}
+        }
+      },
+      "GeksoFileLib/1.0.0.0": {
+        "runtime": {
+          "GeksoFileLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +27,11 @@
   "libraries": {
     "TCP_Server/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeksoFileLib/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

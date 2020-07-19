@@ -1,5 +1,6 @@
 ﻿using System;
 using TCP_ListenerN.Server;
+using GeksoFileLib.FileListener;
 
 namespace TCP_Server
 {
@@ -7,7 +8,11 @@ namespace TCP_Server
     {
         static void Main(string[] args)
         {
-            TCP_Listener listener = new TCP_Listener("192.168.5.246",1444);
+            IniFileListener iniFile = new IniFileListener(@"D:\Projects\Pet\C#\TCP_Server\serverInfo.ini");
+            string ip = iniFile.Read("ip","General");
+            string port = iniFile.Read("port", "General");
+            int portInt = Int32.Parse(port);
+            TCP_Listener listener = new TCP_Listener(ip, portInt);
             Console.ReadKey();
         }
     }

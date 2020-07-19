@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gekso\\OneDrive\\Документи\\Project\\C#\\TCP_Server\\TCP_Client\\TCP_Client.csproj",
+      "projectUniqueName": "D:\\Projects\\Pet\\C#\\TCP_Server\\TCP_Client\\TCP_Client.csproj",
       "projectName": "TCP_Client",
-      "projectPath": "C:\\Users\\gekso\\OneDrive\\Документи\\Project\\C#\\TCP_Server\\TCP_Client\\TCP_Client.csproj",
+      "projectPath": "D:\\Projects\\Pet\\C#\\TCP_Server\\TCP_Client\\TCP_Client.csproj",
       "packagesPath": "C:\\Users\\gekso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gekso\\OneDrive\\Документи\\Project\\C#\\TCP_Server\\TCP_Client\\obj\\",
+      "outputPath": "D:\\Projects\\Pet\\C#\\TCP_Server\\TCP_Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gekso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

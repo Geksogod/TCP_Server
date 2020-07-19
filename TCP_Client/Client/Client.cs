@@ -27,7 +27,6 @@ namespace TCP_Client.Client
                             byte[] buff = new byte[1];
                             if (tcpClient.Client.Receive(buff, SocketFlags.Peek) == 0)
                             {
-                                // Client disconnected
                                 return false;
                             }
                             else
@@ -60,8 +59,8 @@ namespace TCP_Client.Client
 
         private async void ConnectToServer()
         {
-            Console.WriteLine("Try to connect to server...");
             tcpClient = new TcpClient();
+            Console.WriteLine("Try to connect to server...");
             while (true)
             {
                 if (myTimer <= 0)
@@ -84,7 +83,7 @@ namespace TCP_Client.Client
                     }
                     catch (Exception q)
                     {
-                        Console.WriteLine("Can't connected to " + serverIP + ":" + serverPort + " server");
+                        Console.WriteLine("Try to connect to server...");
                     }
                 }
                 else
